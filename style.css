@@ -6,6 +6,6 @@ body {
 	margin: 0;
  }
 
- li:nth-child(n+2) {
+ li:nth-child(odd):not(:first-child) {
 	margin-top: 1.5em;
  }
